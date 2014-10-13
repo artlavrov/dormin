@@ -17,12 +17,13 @@ then invoke:
       $ (cd index; ./index.sh /path/to/somewhere)
       $ sh do.sh
       $ ./dormin bird_A.nmo bird_A_atk_gride.anb
-                         (just an example)
 
-      After first command index/ will contain NICO.DAT.index, XAB.index,
-      etc which are simple textual files containing names/offsets/sizes
-      of models/textures/skeltons/animations. index/index is binary dump
-      of those X.index files for faster loading.
+(just an example)
+
+After first command index/ will contain NICO.DAT.index, XAB.index,
+etc which are simple textual files containing names/offsets/sizes
+of models/textures/skeltons/animations. index/index is binary dump
+of those X.index files for faster loading.
 
 Or if you have a slice:
 
