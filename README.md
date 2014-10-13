@@ -12,7 +12,8 @@ How to run
 ----------
 Given that your CD-ROM drive can read SOTCs disk.
 Copy: NICO.DAT, XAB, XAC, XAD, XAE somewhere and
-then invoke: 
+then invoke:
+
       $ (cd index; ./index.sh /path/to/somewhere)
       $ sh do.sh
       $ ./dormin bird_A.nmo bird_A_atk_gride.anb
@@ -24,6 +25,7 @@ then invoke:
       of those X.index files for faster loading.
 
 Or if you have a slice:
+
       $ sh do.sh
       $ ./dormin -index slice.idx bird_A.nmo bird_A_atk_gride.anb
                          (just an example)
